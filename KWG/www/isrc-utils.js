@@ -315,7 +315,7 @@ var isrcUtils = {
         var dataToServer = {
           'id': isrcUtils.data.uid,
           'experimenter': 'Ethan',
-          'experimentName': 'kwg_meditation_v1',
+          'experimentName': 'kwg_psychedelics_v1',
           'curData': JSON.stringify(curData)
         };
 
