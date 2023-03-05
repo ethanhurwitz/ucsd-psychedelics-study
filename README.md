@@ -1,1 +1,0 @@
-# ucsd-psychedelics-study

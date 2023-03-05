@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<title>UCSD Study</title>    
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="jsLibs/jquery-3-6-0-min.js"></script>
+<script src="jsLibs/ajax.js"></script>
+<script src="jsLibs/bootstrap-min.js"></script>
+<script src="jsLibs/TimTurkTools.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
+    <style>
+        #container {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content {
+  flex: 0 0 700px;
+}
+    </style>  
+  </head>
+    <body>
+      <script>
+          var randCode = Math.round(Math.random()*10000);
+      </script>
+<div id="container">
+  <div id="content">
+Thank you for your interest in participating in this research on psychedelics! This study is broken into several parts. Below, you will find individual 
+      links to complete each part. These parts should only take a few minutes each. <u>Your responses are completely anonymous. No personally identifiable information is collected.</u> 
+    Please make sure to use a laptop or desktop computer, these will not work properly on tablets or phones, and put your browser window in fullscreen. You can do this by clicking on
+      the green button on the top left part of your window on a Mac computer, or the middle square on the top right if you are on Windows.<br><br>
+      
+      At the beginning of each, you will be asked to input an ID number.
+      Yours is: <b><script type="text/javascript">document.write(randCode);</script></b>.<br> Please write this number down. If you refresh this page, a different ID number will show up!
+    Copy/paste this code into the entry box at the beginning of each part. <b>Please make sure to use the same ID number for all parts, and complete the parts in order!</b> When you are done with a specific part,
+      you can close the new window it created, come back to this page, and click on a new link for the next part. Once you have completed all the parts from the links below,
+      the study is over! At the end of the last page,
+    there will be additional information about the study, if you are interested!<br><br>
+    
+    There are time estimates next to each part. These will be updated when more people complete each part. Please feel free to take breaks between the parts if needed!<br><br>
+      
+        <script>
+            var loc = "https://ucsd.co1.qualtrics.com/jfe/form/SV_2hKNGcNVEvKGbRk?ID="+randCode;
+            document.write('<a href="' + loc + '", target= "_blank">Part 1</a> (1 minute)<br><br>');
+         
+            var loc1 = "https://ethanhurwitz.github.io/ucsd-psychedelics-study/exps/Part1.html?ID="+randCode;
+            document.write('<a href="' + loc1 + '", target= "_blank">Part 2</a> (~6 minutes)<br><br>');
+          
+            var loc2 = "https://ethanhurwitz.github.io/ucsd-psychedelics-study/exps/Part2.html?ID="+randCode;
+            document.write('<a href="' + loc2 + '", target= "_blank">Part 3</a> (~6 minutes)<br><br>');
+          
+            var loc3 = "https://ethanhurwitz.github.io/ucsd-psychedelics-study/KWG/www/index.html?ID="+randCode;
+            document.write('<a href="' + loc3 + '", target= "_blank">Part 4</a> (~5 minutes)<br><br>');
+          
+            var loc4 = "https://ucsd.co1.qualtrics.com/jfe/form/SV_cwCU0aWLBWchFRk?ID="+randCode;
+            document.write('<a href="' + loc4 + '", target= "_blank">Part 5</a> (~6 minutes)<br><br>');
+          
+//             var loc4 = "https://ucsd.co1.qualtrics.com/jfe/form/SV_57HKDi4I18L3v6u?ID="+randCode;
+//             document.write('<a href="' + loc4 + '", target= "_blank">Part 5</a> (~7 minutes)<br><br>');
+          
+            var loc5 = "https://ethanhurwitz.github.io/ucsd-psychedelics-study/exps/contexto/contexto.html?ID="+randCode;
+            document.write('<a href="' + loc5 + '", target= "_blank">Part 6</a> (~7 minutes)<br><br>');          
+          
+            var loc6 = "https://ethanhurwitz.github.io/ucsd-psychedelics-study/exps/Part6.html?ID="+randCode;
+            document.write('<a href="' + loc6 + '", target= "_blank">Part 7</a> (~1 minute)');          
+        </script>
+    
+      </div>
+      </div>
+    </body>
+</html>
